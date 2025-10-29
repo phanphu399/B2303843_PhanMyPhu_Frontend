@@ -62,7 +62,6 @@ const removeAllContacts = async () => {
 };
 
 const goToAddContact = () => {
-  //contacts/add
   return router.push({ name: "contact.add" });
 };
 onMounted(() => {
